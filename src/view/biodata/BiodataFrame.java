@@ -44,25 +44,25 @@ public class BiodataFrame extends JFrame {
         textAreaAlamat.setBounds(15, 190, 350, 60);
 
         JLabel labelJenisKelamin = new JLabel("Jenis Kelamin:");
-        labelJenisKelamin.setBounds(15, 220, 350, 30);
+        labelJenisKelamin.setBounds(15, 250, 350, 30);
         radioButtonL = new JRadioButton("Laki-Laki", true);
-        radioButtonL.setBounds(15, 250, 350, 30);
+        radioButtonL.setBounds(15, 280, 350, 30);
         radioButtonP = new JRadioButton("Perempuan");
-        radioButtonP.setBounds(15, 280, 350, 30);
+        radioButtonP.setBounds(15, 310, 350, 30);
 
         JLabel labelJenis = new JLabel("Pekerjaan:");
-        labelJenis.setBounds(15, 310, 350, 30);
+        labelJenis.setBounds(15, 340, 350, 30);
         comboJenis = new JComboBox<>();
-        comboJenis.setBounds(15, 340, 150, 30);
+        comboJenis.setBounds(15, 370, 150, 30);
 
         JButton button = new JButton("Simpan");
-        button.setBounds(15, 370, 100, 40);
+        button.setBounds(15, 410, 100, 40);
 
         JButton buttonDelete = new JButton("Hapus");
-        buttonDelete.setBounds(130, 370, 100, 40);
+        buttonDelete.setBounds(130, 410, 100, 40);
 
         JScrollPane scrollableTable = new JScrollPane(table);
-        scrollableTable.setBounds(15, 410, 500, 200);
+        scrollableTable.setBounds(15, 460, 500, 200);
 
         ButtonGroup bg = new ButtonGroup();
         bg.add(radioButtonL);
